@@ -29,6 +29,7 @@ class PriceOnRequest extends Module
             || !Configuration::updateValue('PRICEONREQUEST_PHONE', '')
             || !$this->registerHook('displayPriceOnRequest')
             || !$this->registerHook('displayProductButtons')
+            || !$this->registerHook('footer')
             || !$this->registerHook('header'))
             return false;
         return true;
@@ -60,6 +61,10 @@ class PriceOnRequest extends Module
     {
         $this->context->controller->addCSS(($this->_path).'views/css/priceonrequest.css', 'all');
         $this->context->controller->addJS(($this->_path).'views/js/priceonrequest.js', 'all');
+    }
+
+    public function hookFooter() {
+        return $this->display(__FILE__, 'formpriceonrequest.tpl');
     }
 
     public function getContent() {
