@@ -23,4 +23,4 @@
     filter: none;
     background: #0084bf; }
 
-#priceonrequest {display:none;}
+#priceonrequest,#priceonrequest_alert {display:none;}

@@ -124,7 +124,7 @@ class PriceOnRequest extends Module
     private function getProductArray() {
         $p = $this->context->controller->getProduct();
         return array (
-           'id'=>$p->id,
+           'id_product'=>$p->id,
            'name'=>$p->name,
         );
     }

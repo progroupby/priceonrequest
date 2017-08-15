@@ -1,0 +1,7 @@
+Запрос цены на {product_name} id: {product_id}
+
+
+{name}, {email}, {phone}
+
+
+{message}
