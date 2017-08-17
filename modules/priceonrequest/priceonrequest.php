@@ -30,6 +30,7 @@ class PriceOnRequest extends Module
             || !$this->registerHook('displayPriceOnRequest')
             || !$this->registerHook('displayProductButtons')
             || !$this->registerHook('footer')
+            || !$this->registerHook('hookPriceOnRequestForm')
             || !$this->registerHook('header'))
             return false;
         return true;
@@ -64,6 +65,9 @@ class PriceOnRequest extends Module
     }
 
     public function hookFooter() {
+        return $this->display(__FILE__, 'formpriceonrequest.tpl');
+    }
+    public function hookPriceOnRequestForm() {
         return $this->display(__FILE__, 'formpriceonrequest.tpl');
     }
 
