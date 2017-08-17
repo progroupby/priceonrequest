@@ -68,6 +68,13 @@ class PriceOnRequest extends Module
     }
 
     public function getContent() {
+
+        if (Tools::isSubmit('submitModule'))
+        {
+            Configuration::updateValue('PRICEONREQUEST_EMAIL', Tools::getValue('PRICEONREQUEST_EMAIL'));
+            Configuration::updateValue('PRICEONREQUEST_PHONE', Tools::getValue('PRICEONREQUEST_PHONE'));
+        }
+
         $fields_form = array(
             'form' => array(
                 'legend' => array(

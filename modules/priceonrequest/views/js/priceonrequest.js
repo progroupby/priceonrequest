@@ -9,7 +9,6 @@ $(document).ready(function(){
             $("#por-header i").text(name);
             $("#form_priceonrequest #por-pid").val(id);
             $("#form_priceonrequest #por-pname").val(name);
-            debugger;
         }
     });
     $("#form_priceonrequest").submit(function(){ return false; });
@@ -20,7 +19,7 @@ $(document).ready(function(){
             data: 'send=request&'+ $('#form_priceonrequest').serialize(),
             dataType: 'json',
             success: function(json) {
-                debugger;
+                console.log(json);
             }
         });
 
