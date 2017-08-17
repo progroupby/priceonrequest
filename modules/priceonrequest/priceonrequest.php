@@ -30,7 +30,7 @@ class PriceOnRequest extends Module
             || !$this->registerHook('displayPriceOnRequest')
             || !$this->registerHook('displayProductButtons')
             || !$this->registerHook('footer')
-            || !$this->registerHook('hookPriceOnRequestForm')
+            || !$this->registerHook('priceOnRequestForm')
             || !$this->registerHook('header'))
             return false;
         return true;
