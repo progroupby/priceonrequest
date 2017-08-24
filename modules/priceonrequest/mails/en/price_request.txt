@@ -1,4 +1,4 @@
-Запрос цены на {product_name} id: {product_id}
+{l s="Request a price for the " mod='priceonrequest'} {product_name} id: {product_id}
 
 
 {name}, {email}, {phone}
