@@ -2,7 +2,7 @@
 <module>
     <name>priceonrequest</name>
     <displayName><![CDATA[Price on Request]]></displayName>
-    <version><![CDATA[0.0.1]]></version>
+    <version><![CDATA[0.1]]></version>
     <description><![CDATA[To the item price on request]]></description>
     <author><![CDATA[progroup.by]]></author>
     <tab><![CDATA[front_office_features]]></tab>

@@ -7,7 +7,7 @@ class PriceOnRequest extends Module
     {
         $this->name = 'priceonrequest';
         $this->tab = 'front_office_features';
-        $this->version = '0.0.1';
+        $this->version = '0.1';
         $this->author = 'progroup.by';
         $this->need_instance = 0;
         $this->bootstrap = true;
@@ -89,14 +89,14 @@ class PriceOnRequest extends Module
                         'type' => 'text',
                         'label' => $this->l('Email'),
                         'name' => 'PRICEONREQUEST_EMAIL',
-                        'desc' => $this->l('email'),
+                        'desc' => $this->l('Enter the email address to which will be sent the price requests for the item.'),
                     ),
-                    array(
+                    /*array(
                         'type' => 'text',
                         'label' => $this->l('Phone'),
                         'name' => 'PRICEONREQUEST_PHONE',
                         'desc' => $this->l('phone'),
-                    ),
+                    ),*/
 
                 ),
                 'submit' => array(

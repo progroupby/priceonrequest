@@ -23,4 +23,9 @@
     filter: none;
     background: #0084bf; }
 
+.por-button {text-align: center; margin: 20px 10px; clear: both;}
+
 #priceonrequest,#priceonrequest_alert {display:none;}
+#priceonrequest {padding: 30px;}
+#por-header,#priceonrequest_alert {font-size: 18px; font-weight: bold; text-align: center; margin-bottom: 20px; }
+#priceonrequest input, #priceonrequest textarea {width: 100%;}
