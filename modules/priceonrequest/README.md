@@ -9,7 +9,8 @@ Download and upload the module on your site.
 In modules find ain install this module.
 In the "email" field write the email address on which you wish to receive your price requests.
 
-###Addition
+##Addition
+
 The module uses the hooks:
 1. Heder - to add js and css
 2. Footer - to display the request form prices
@@ -17,6 +18,7 @@ The module uses the hooks:
 
 4. priceOnRequestForm - for withdrawal request form prices, if you are not using Footer hook
 for output to add in the template footer.tpl
+
 {capture name='priceonrequestform'}{hook h='priceonrequestform'}{/capture}
 
 5. displayPriceOnRequest to display buttons price request if you don't use hook displayProductButtons
