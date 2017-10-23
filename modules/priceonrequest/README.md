@@ -5,11 +5,10 @@ This module need for getting products price on request.
 
 ## Getting Started
 Download and upload the module on your site.
+
 ### Installing
 In modules find ain install this module.
 In the "email" field write the email address on which you wish to receive your price requests.
-
-##Addition
 
 The module uses the hooks:
 1. Heder - to add js and css
